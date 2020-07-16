@@ -1,3 +1,6 @@
+#ifndef __WALK_H__
+#define __WALK_H__
+
 #include <filesystem>
 #include <functional>
 #include <vector>
@@ -43,3 +46,5 @@ namespace walk {
     return vs;
   }
 }
+
+#endif
