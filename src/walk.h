@@ -41,10 +41,10 @@ namespace walk {
     walk(base, func);
   }
 
-  std::vector<fs::path> glob(fs::path, std::string pattern) {
-    std::vector<fs::path> vs;
-    return vs;
-  }
+  // std::vector<fs::path> glob(fs::path, std::string pattern) {
+  //   std::vector<fs::path> vs;
+  //   return vs;
+  // }
 }
 
 #endif
